@@ -11,6 +11,12 @@
     position: absolute;
 }
 
+.image-container h2 {
+    right: 20rem;
+    top: 18rem;
+    position: absolute;
+}
+
 .tree {
     position: absolute;
     top: 15rem;

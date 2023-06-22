@@ -8,16 +8,17 @@ const handleClick = () => {
     console.log('clicked');
 }
 
-const Card = ({ title, description }) => {
+const Card = ({ title, description, imageURL, link }) => {
 
-
+    
 
     return (
 
         <div className="container">
             <h1>{title}</h1>
-            <img src={Image} className="card_image" onClick={handleClick} alt="Project photo"></img>
+            <img src={imageURL} className="card_image" onClick={handleClick} alt="Project photo"></img>
             <p>{description}</p>
+            <p>Link: {link}</p>
         </div>
         
 

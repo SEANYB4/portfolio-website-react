@@ -1,27 +1,22 @@
 import React, { useState, useEffect } from "react";
 import Card from './Card.js';
+import projectData from '../projects.json';
 
 
 const Projects = () => {
 
-    const [data, setData] = useState({});
+    const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch("./projects.json")
-            .then(response => response.json())
-            .then(data => {
-                setData(data)
-                console.log(data);
-            })
-            .catch(error => console.log(error));
+        setData(projectData);
     }, []);
 
     
     return (
 
         <div id="projects">
-            {Object.keys(data).map(key => (
-                <Card title={key.title}/>
+            {data.map(item => (
+                <Card title={item.title} description={item.description} imageURL={item.imageURL} link={item.link} key={item.title}/>
             ))}
         </div>
     )

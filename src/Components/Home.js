@@ -16,6 +16,7 @@ const Home = () => {
             <Image image={Monk} className='monk'></Image>
             <Image image={Tree} className='tree'></Image>
             <h1>Hey, I'm SEANYB4</h1>
+            <h2>Computer Programmer and Musician</h2>
         </div>
     )
 }
