@@ -9,7 +9,7 @@
 }
 
 .menu_button:hover {
-
-    color: aqua;
+    background-color: aquamarine;
+    color: green;
     transform: translateY(-3px);
 }
