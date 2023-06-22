@@ -1,12 +1,28 @@
-nav li {
-  list-style-type: none;
-  background-color: blue;
-}
 
+
+* {
+
+  
+}
 
 ul {
   background-color: blue;
   display: flex;
   justify-content: space-between;
   width: 80%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 30px;
 }

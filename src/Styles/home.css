@@ -1,0 +1,61 @@
+
+.image-container {
+    position: relative;
+   
+    
+}
+
+.image-container h1 {
+    right: 20rem;
+    top: 15rem;
+    position: absolute;
+}
+
+.tree {
+    position: absolute;
+    top: 15rem;
+    z-index: 0;
+}
+
+.castle {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveUpDown2 4s infinite;
+}
+
+.monk {
+    z-index: 2;
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+    animation: moveUpDown 8s infinite;
+    
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveUpDown2 {
+
+    0% {
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

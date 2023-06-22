@@ -1,44 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+
+import MenuButton from './Components/Menu_Button.js';
+import Home from "./Components/Home";
+import Projects from "./Components/Projects";
+import About from "./Components/About";
 import {
   BrowserRouter as Router,
-    Switch,
     Route,
-    Redirect,
     Routes
 } from "react-router-dom";
-import Logo from "./Images/portfolio_test.jpg"
+
 function App() {
   return (
     <Router>
 
-  
       <div className="App">
         <header className="App-header">
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>Projects</li>
-              <li>About</li>
-            </ul>
+          <nav className='nav'>
+            <MenuButton title="Home" description="Countdown Game" link="/"></MenuButton>
+            <MenuButton title="Projects" description="Warriors of Xu Game" link="/projects"></MenuButton>
+            <MenuButton title="About" description="Gazetteer App" link="/about"></MenuButton>
           </nav>
         </header>
 
-
-        <img src={Logo}></img>
         <Routes>
-          <Route exact path="/"></Route>
-          <Route exact path="/Home"></Route>
-          <Route exact path="/Projects"></Route>
-          <Route exact path="/About"></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/about" element={<About/>}></Route>
         </Routes>
 
-
-
-
       </div>
-
-
     </Router>
   );
 }
