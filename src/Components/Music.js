@@ -14,9 +14,8 @@ const Music = () => {
     return (
 
         <div id="music">
-            {tracks.map(track => {
-                <p>{track.title}</p>
-            })}
+            <p>Clyde Built</p>
+            <audio controls src="../Audio/Clyde Built.wav" type="audio/mpeg"></audio>
         </div>
 
 

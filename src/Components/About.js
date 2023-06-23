@@ -7,11 +7,12 @@ const About = () => {
 
     return (
 
-
-        <div>
+        <div className="about_page_container">
+            <div className="about_container">
             <h1>About</h1>
             <p>Hello I am Sean Bain</p>
-            <p>I am a full stack developer from Scotland</p>
+            <p>I am a full stack web developer from Scotland.</p>
+            <p>I also enjoy game and audio programming.</p>
             <h3>Qualifications</h3>
             <ul>
                 <li>MSc Computer Science - University of York - Pending</li>
@@ -25,7 +26,28 @@ const About = () => {
                 <li>Boot.dev</li>
                 <li>Leetcode</li>
             </ul>
+
+            <h3>Programming Languages and Frameworks</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Golang</li>
+            </ul>
+
+            <div className="download_button">
+                <p>Download my CV here!</p>
+            </div>
+            
+            </div>
+
+
+            <div className="contact_container">
+                <h1>Contact</h1>
+            </div>
+
         </div>
+
+        
     )
 }
 

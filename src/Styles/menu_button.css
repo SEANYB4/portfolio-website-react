@@ -1,6 +1,5 @@
 
 .menu_button {
-    color: aqua;
     
     margin-left: 30px;
     margin-top: 20px;
@@ -9,7 +8,6 @@
 }
 
 .menu_button:hover {
-    background-color: aquamarine;
-    color: green;
+    background-color: #6fc0f2;
     transform: translateY(-3px);
 }
