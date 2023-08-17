@@ -10,9 +10,12 @@ const About = () => {
         <div className="about_page_container">
             <div className="about_container">
             <h1>About</h1>
-            <p>Hello I am Sean Bain</p>
+            <p>Hello, I'm Sean Bain.</p>
             <p>I am a full stack web developer from Scotland.</p>
-            <p>I also enjoy game and audio programming.</p>
+            <p>I also enjoy game and audio programming, as well as making music.</p>
+            <p>I am always eager to take on a challenge,</p>
+            <p>so feel free to reach out and let me know about your project.</p>
+            <p>Looking forward to working with you...</p>
             <h3>Qualifications</h3>
             <ul>
                 <li>MSc Computer Science - University of York - Pending</li>
@@ -43,6 +46,19 @@ const About = () => {
 
             <div className="contact_container">
                 <h1>Contact</h1>
+                <form>
+                    <label for='name'>Name</label>
+                    <br></br>
+                    <input name='name' type='text'></input>
+                    <br></br>
+                    <br></br>
+                    <label for="email">Email</label>
+                    <br></br>
+                    <input name='email' type='textarea'></input>
+
+                </form>
+                <p>Using this form will send an email directly to my personal address,</p>
+                <p>or alternatively, you can contact me at artemis45566@gmail.com</p>
             </div>
 
         </div>

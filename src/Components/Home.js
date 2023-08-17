@@ -16,18 +16,18 @@ const Home = () => {
 
     return (
         <div className="image-container">
-            <Image image={Castle} className='castle'></Image>
-            <Image image={Monk} className='monk'></Image>
-            <Image image={Tree} className='tree'></Image>
-            <Image image={Cables} className='cables'></Image>
-            <Image image={Laptop} className='laptop'></Image>
-            <Image image={Synthesizer} className='synthesizer'></Image>
-            <Image image={Server} className='server'></Image>
-            <Image image={Blossom} className='blossom'></Image>
-            <Image image={Blossom} className='blossom2'></Image>
-            <Image image={Blossom} className='blossom3'></Image>
-            <Image image={Blossom} className='blossom4'></Image>
-            <Image image={Blossom} className='blossom5'></Image>
+            <Image image={Castle} className='castle' path='/'></Image>
+            <Image image={Monk} className='monk' path='/'></Image>
+            <Image image={Tree} className='tree' path='/'></Image>
+            <Image image={Cables} className='cables' path='/'></Image>
+            <Image image={Laptop} className='laptop' path='/projects'></Image>
+            <Image image={Synthesizer} className='synthesizer' path='/music'></Image>
+            <Image image={Server} className='server' path='/about'></Image>
+            <Image image={Blossom} className='blossom' path='/'></Image>
+            <Image image={Blossom} className='blossom2' path='/'></Image>
+            <Image image={Blossom} className='blossom3' path='/'></Image>
+            <Image image={Blossom} className='blossom4' path='/'></Image>
+            <Image image={Blossom} className='blossom5' path='/'></Image>
             
             <h1>Hey, I'm SEANYB4 :)</h1>
             <h2>Computer Programmer and Musician</h2>

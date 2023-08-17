@@ -5,7 +5,8 @@
         "title": "Countdown Game",
         "description": "An online game version of the TV show Countdown",
         "link": "https://seanyb4.github.io/countdown/",
-        "imageURL": "../Images/countdown.png"
+        "image": "countdown",
+        "technologies": "Leaflet, JS, PHP, HTML, CSS"
 
     },
 
@@ -15,14 +16,16 @@
         "title": "Warriors of Xu",
         "description": "An online game made using HTML canvas and JS",
         "link": "######",
-        "imageURL": "../Images/countdown.png"
+        "image": "warriors_of_xu",
+        "technologies": "Leaflet, JS, PHP, HTML, CSS"
     },
 
      {
         "title": "Gazetteer",
         "description": "A map app that can give you information about different locations in the world",
-        "link": "######",
-        "imageURL": "../Images/countdown.png"
+        "link": "https://bainsean.infinityfreeapp.com/",
+        "image": "gazetteer",
+        "technologies": "Leaflet, JS, PHP, HTML, CSS"
     }
 
 

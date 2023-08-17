@@ -6,8 +6,12 @@
 
 
 .container {
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 30px;
+    border-radius: 5%;
+    padding: 1rem;
+    width: 30%;
+    line-height: 0.5rem;
 }
 
 h1 {
