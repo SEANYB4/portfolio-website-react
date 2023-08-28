@@ -5,7 +5,6 @@ import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
 import Music from "./Components/Music";
-import MatrixBackground from './Components/MatrixBackground';
 import {
   BrowserRouter as Router,
     Route,
