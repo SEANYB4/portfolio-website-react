@@ -187,14 +187,21 @@ h1 {
 
 @media (max-width: 600px) {
 
-
-
+    h1 {
+        color: whitesmoke;
+        position: absolute;
+        bottom: 1rem;
+        left: 5rem;
+        margin-top: 10rem;
+    }
+   
 
     h2 {
         color: whitesmoke;
         position: absolute;
         bottom: 1rem;
         left: 5rem;
+        margin-top: 18rem;
     }
 
     .castle {
@@ -219,7 +226,7 @@ h1 {
     .laptop {
         z-index: 0;
         position: absolute;
-        top: 32rem;
+        top: 22rem;
         left: 15rem;
         height: 15rem;
     }

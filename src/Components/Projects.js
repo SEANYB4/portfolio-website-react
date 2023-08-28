@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from './Card.js';
 import projectData from '../projects.json';
+import '../Styles/projects.css';
 
 
 const Projects = () => {

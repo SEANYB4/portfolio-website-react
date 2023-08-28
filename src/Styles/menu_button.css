@@ -6,6 +6,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 50px;
+    
 }
 
 .menu_button:hover {
@@ -13,4 +14,24 @@
     /* transform: translateY(-3px); */
     /* border: 1px solid black; */
     border-radius: 5%;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    .menu_button {
+        background-color: #6fc0f2;
+        width: 3.5rem;
+        margin: 0.5rem;
+        font-size: 12px;
+    }
+
+    .menu_button:hover {
+        background-color: #354234;
+      
+    }
+
+
 }
