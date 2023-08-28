@@ -11,11 +11,11 @@ const handleClick = () => {
 
 const Card = ({ title, description, image, link, technologies }) => {
     let imageURL;
-    if (image == 'countdown') {
+    if (image === 'countdown') {
         imageURL = CountdownImage;
-    } else if (image == 'warriors_of_xu') {
+    } else if (image === 'warriors_of_xu') {
         imageURL = WarriorsOfXuImage;
-    } else if (image == 'gazetteer') {
+    } else if (image === 'gazetteer') {
         imageURL = GazetteerImage;
     }
     
@@ -23,7 +23,7 @@ const Card = ({ title, description, image, link, technologies }) => {
 
         <div className="container">
             <h1>{title}</h1>
-            <img src={imageURL} className="card_image" onClick={handleClick} alt="Project photo"></img>
+            <img src={imageURL} className="card_image" onClick={handleClick} alt=""></img>
             <p>{description}</p>
             <h6>Technologies Used:</h6>
             <p>{technologies}</p>

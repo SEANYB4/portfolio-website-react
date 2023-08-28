@@ -12,7 +12,7 @@ const Image = ({image, className, path}) => {
     }
     return (
         <Link to={path}>
-        <img src={image} className={`Image${loaded ? '-loaded' : ''}, ${className}`} onLoad={handleLoad}></img>
+        <img src={image} className={`Image${loaded ? '-loaded' : ''}, ${className}`} onLoad={handleLoad} alt=""></img>
         </Link>
     )
 }

@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import musicData from "../music.json";
+import React from "react";
+// import musicData from "../music.json";
 import ClydeBuilt from '../Audio/Clyde Built.wav';
 import Track2 from '../Audio/231342.mp3';
 
 const Music = () => {
 
-    const [tracks, setTracks] = useState([])
+    // const [tracks, setTracks] = useState([])
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        setTracks(musicData)
-    }, [])
+    //     setTracks(musicData)
+    // }, [])
 
 
     return (
