@@ -1,8 +1,9 @@
 import React from "react";
 import "../Styles/card.css";
 import CountdownImage from '../Images/countdown.png';
-import WarriorsOfXuImage from '../Images/hacker_monk.png';
-import GazetteerImage from '../Images/cherry_tree.png';
+import WarriorsOfXuImage from '../Images/warriors_of_xu.png';
+import GazetteerImage from '../Images/gazetteer.png';
+import CyberSLavesImage from '../Images/cyber_slaves.png';
 
 const handleClick = () => {
 
@@ -17,6 +18,8 @@ const Card = ({ title, description, image, link, technologies }) => {
         imageURL = WarriorsOfXuImage;
     } else if (image === 'gazetteer') {
         imageURL = GazetteerImage;
+    } else if (image === 'cyber_slaves') {
+        imageURL = CyberSLavesImage;
     }
     
     return (

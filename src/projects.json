@@ -2,7 +2,7 @@
 
      {
 
-        "title": "Countdown Game",
+        "title": "Countdown",
         "description": "An online game version of the TV show Countdown",
         "link": "https://seanyb4.github.io/countdown/",
         "image": "countdown",
@@ -14,10 +14,10 @@
      {
 
         "title": "Warriors of Xu",
-        "description": "An online game made using HTML canvas and JS",
-        "link": "######",
+        "description": "A platformer game with a martial arts theme.",
+        "link": "https://seanyb4.github.io/warriors_of_xu/",
         "image": "warriors_of_xu",
-        "technologies": "Leaflet, JS, PHP, HTML, CSS"
+        "technologies": "JavaScript, HTML, CSS"
     },
 
      {
@@ -26,6 +26,14 @@
         "link": "https://bainsean.infinityfreeapp.com/",
         "image": "gazetteer",
         "technologies": "Leaflet, JS, PHP, HTML, CSS"
+    },
+
+    {
+        "title": "Cyber Slaves",
+        "description": "A shooter game with a dystopian sci-fi theme",
+        "link": "https://seanyb4.github.io/cyber-slaves/",
+        "image": "cyber_slaves",
+        "technologies": "JavaScript, HTML, CSS"
     }
 
 

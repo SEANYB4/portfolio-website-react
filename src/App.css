@@ -1,4 +1,6 @@
-
+body {
+  background-color: rgb(159, 159, 160);
+}
 
 ul {
   
@@ -20,4 +22,20 @@ nav {
   flex-direction: row;
   gap: 30px;
   margin-left: 30px;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+  body {
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  
+
+
+
 }

@@ -9,6 +9,7 @@ import Laptop from "../Images/laptop.png";
 import Synthesizer from "../Images/synthesizer.png";
 import Server from "../Images/server.png";
 import "../Styles/home.css";
+import MatrixBackground from "./MatrixBackground.js";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <div className="image-container">
+            <MatrixBackground></MatrixBackground>
             <Image image={Castle} className='castle' path='/'></Image>
             <Image image={Monk} className='monk' path='/'></Image>
             <Image image={Tree} className='tree' path='/'></Image>
@@ -31,6 +33,7 @@ const Home = () => {
             
             <h1>Hey, I'm SEANYB4 :)</h1>
             <h2>Computer Programmer and Musician</h2>
+            
         </div>
     )
 }

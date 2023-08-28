@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
 import Music from "./Components/Music";
+import MatrixBackground from './Components/MatrixBackground';
 import {
   BrowserRouter as Router,
     Route,
@@ -13,6 +14,7 @@ import {
 
 function App() {
   return (
+    
     <Router>
 
       <div className="App">
@@ -24,6 +26,7 @@ function App() {
             <MenuButton title="Music" link="/music"></MenuButton>
           </nav>
         </header>
+        
 
         <Routes>
           <Route path="*" element={<Home />}></Route>
@@ -33,6 +36,7 @@ function App() {
         </Routes>
 
       </div>
+      
     </Router>
   );
 }

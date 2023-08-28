@@ -143,6 +143,11 @@
     animation-timing-function: linear;
 }
 
+
+h1 {
+    animation: moveUpDown2 4s infinite;
+}
+
 @keyframes slide {
     0% {
         transform: translateX(0rem);
@@ -177,5 +182,75 @@
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+
+
+
+
+    h2 {
+        color: whitesmoke;
+        position: absolute;
+        bottom: 1rem;
+        left: 5rem;
+    }
+
+    .castle {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 1rem;
+        animation: moveUpDown2 4s infinite;
+    }
+
+
+    .monk {
+        z-index: 4;
+        position: absolute;
+        top: 7rem;
+        left: 7rem;
+        animation: moveUpDown 8s infinite;
+        
+    }
+
+
+    .laptop {
+        z-index: 0;
+        position: absolute;
+        top: 32rem;
+        left: 15rem;
+        height: 15rem;
+    }
+    
+    
+
+    .synthesizer {
+        z-index: 0;
+        position: absolute;
+        top: 2rem;
+        left: 14rem;
+        height: 5rem;
+        transform: rotate(335deg);
+    }
+    
+
+
+    .server {
+        z-index: 0;
+        position: absolute;
+        top: 7rem;
+        left: 20rem;
+        height: 12rem;
+    }
+
+
+    .cables {
+        z-index: 0;
+        position: absolute;
+        top: 7rem;
+        left: 3rem;
+        
     }
 }
