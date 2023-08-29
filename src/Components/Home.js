@@ -31,7 +31,7 @@ const Home = () => {
             <Image image={Blossom} className='blossom4' path='/'></Image>
             <Image image={Blossom} className='blossom5' path='/'></Image>
             
-            <h1>Hey, I'm SEANYB4 :)</h1>
+            <h1>Hey, I'm Sean</h1>
             <h2>Computer Programmer and Musician</h2>
             
         </div>

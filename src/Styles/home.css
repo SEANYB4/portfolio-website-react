@@ -145,7 +145,25 @@
 
 
 h1 {
-    animation: moveUpDown2 4s infinite;
+   
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+    
+}
+
+h2 {
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes slide {

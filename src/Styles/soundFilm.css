@@ -1,0 +1,16 @@
+.soundfilm {
+
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    width: 40rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aquamarine;
+}
+
+
+
+.video {
+
+    width: 1rem;
+}

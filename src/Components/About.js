@@ -1,5 +1,6 @@
 import React from "react";
 import '../Styles/about.css';
+import Contact from "./Contact";
 
 
 const About = () => {
@@ -44,22 +45,7 @@ const About = () => {
             </div>
 
 
-            <div className="contact_container">
-                <h1>Contact</h1>
-                <form>
-                    <label for='name'>Name</label>
-                    <br></br>
-                    <input name='name' type='text'></input>
-                    <br></br>
-                    <br></br>
-                    <label for="email">Email</label>
-                    <br></br>
-                    <input name='email' type='textarea'></input>
-
-                </form>
-                <p>Using this form will send an email directly to my personal address,</p>
-                <p>or alternatively, you can contact me at artemis45566@gmail.com</p>
-            </div>
+            <Contact></Contact>
 
         </div>
 

@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(159, 159, 160);
+  background-color: rgb(165, 170, 202);
+  color: rgb(28, 47, 82);
+  font-family: monospace;
 }
 
 ul {

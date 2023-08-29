@@ -17,11 +17,12 @@ function App() {
     <Router>
 
       <div className="App">
+        
         <header className="App-header">
           <nav className='nav'>
             <MenuButton title="Home" link="/"></MenuButton>
             <MenuButton title="Projects" link="/projects"></MenuButton>
-            <MenuButton title="About" link="/about"></MenuButton>
+            <MenuButton title="About / Contact" link="/about"></MenuButton>
             <MenuButton title="Music" link="/music"></MenuButton>
           </nav>
         </header>

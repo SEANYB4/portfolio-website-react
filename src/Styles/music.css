@@ -1,0 +1,27 @@
+
+
+.musicContainer {
+
+    margin: 5rem;
+
+}
+
+.tracks {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.soundFilms {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1rem;
+
+
+
+}

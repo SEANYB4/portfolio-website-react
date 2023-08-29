@@ -1,43 +1,36 @@
 import React from "react";
-// import musicData from "../music.json";
 import ClydeBuilt from '../Audio/Clyde Built.wav';
 import Track2 from '../Audio/231342.mp3';
+import SoundFilm from "./SoundFilm";
+import Track from "./Track";
+import '../Styles/music.css';
 
 const Music = () => {
 
-    // const [tracks, setTracks] = useState([])
-
-    // useEffect(() => {
-
-    //     setTracks(musicData)
-    // }, [])
-
-
+ 
     return (
 
-        <div id="music">
-            <h2>Tracks</h2>
-            <p>Clyde Built</p>
-            <audio controls src={ClydeBuilt} type="audio/mpeg"></audio>
+        <div className="musicContainer">
 
-            <br></br>
-            <br></br>
+            <h1>Tracks</h1>
+            <div className="tracks">
+                
+                <Track title="Clyde Built" track={ClydeBuilt}></Track>
+                
+                <Track title="231342" track={Track2}></Track>
+                    
+            </div>
 
-            <p>231342</p>
-            <audio controls src={Track2} type="audio/mpeg"></audio>
+            
+            <h1>Sound Films</h1>
+            <div className="soundFilms">
 
-            <br></br>
+                <SoundFilm title="ComputerMagic" youtubeId="wR6oSACFst4"></SoundFilm>
+                
+                <SoundFilm title="Lessons from the Rain" youtubeId="Iu1DmNHY7_4"></SoundFilm>
 
-            <h2>Sound Films</h2>
-            <iframe
-                src="https://www.bilibili.com/video/BV1kM4y1d7DU/?spm_id_from=333.999.0.0"
-                title="YouTube video player"
-                ></iframe>
+            </div>
         </div>
-
-
-  
-
     )
 }
 export default Music;

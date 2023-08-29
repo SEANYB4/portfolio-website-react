@@ -1,0 +1,15 @@
+.track {
+
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+
+audio {
+
+    margin: 1rem;
+
+}
