@@ -8,7 +8,6 @@ ul {
 
 #message {
 
-
     vertical-align: top;
     height: 6rem;
 }
@@ -68,6 +67,9 @@ ul {
     background-color: bisque;
     border-radius: 2rem;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .download_button p {
     
@@ -89,6 +91,8 @@ ul {
     background-color: bisque;
     border-radius: 2rem;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 .submit_button p {
     
@@ -105,18 +109,34 @@ ul {
 
 @media (max-width: 600px) {
 
+    .about-heading {
+        position: absolute;
+        top: -18rem;
+        left: -10rem;
+
+    }
+
+
+    .contact-heading {
+
+        position: absolute;
+        top: -14rem;
+        left: 0rem;
+    }
+
 
     .about_page_container {
      
         flex-direction: column;
+        margin-left: 1rem;
         
     }
     
 
     .about_container {
 
-        
-        width: 50rem;
+        position: relative;
+        width: 20rem;
         margin-left: 0.1rem;
         margin-top: 5rem;
     }
@@ -124,9 +144,10 @@ ul {
 
 
     .contact_container {
-
-        margin-top: 10rem;
-        margin-left: 5rem;
+        position: relative;
+        width: 20rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
 
 

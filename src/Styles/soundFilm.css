@@ -14,3 +14,12 @@
 
     width: 1rem;
 }
+
+
+@media (max-width: 600px) {
+
+    .soundfilm .video {
+        width: 5rem;
+    }
+
+}

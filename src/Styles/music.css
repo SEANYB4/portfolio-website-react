@@ -25,3 +25,28 @@
 
 
 }
+
+
+@media (max-width: 600px) {
+
+
+    .musicContainer {
+
+        margin: 1rem;
+    }
+
+
+    .tracks {
+
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+
+    .soundFilms {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+
+}

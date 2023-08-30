@@ -146,12 +146,16 @@
 
 h1 {
    
+    /* position: absolute;
+    left: 60rem; */
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
     
 }
 
 h2 {
+    /* position: absolute;
+    left: 60rem; */
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
 }

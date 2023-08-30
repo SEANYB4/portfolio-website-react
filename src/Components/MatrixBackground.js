@@ -28,6 +28,7 @@ const MatrixBackground = () => {
             font-size: ${Math.random() * 2 + 1}rem;
             animation: matrix-effect ${Math.random() * 10 + 5}s linear infinite;
             opacity: ${Math.random()};
+            pointerEvents: none;
             `;
             matrixContainer.appendChild(codeElement);
         }

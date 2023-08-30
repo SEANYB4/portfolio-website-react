@@ -22,21 +22,38 @@ const Contact = () => {
         });
     };
 
+    const handleFormSubmit = (e) => {
+        if (form.current) {
+            sendEmail(e);
+        }
+    }
+
 
     return (
 
         <div className="contact_container">
-            <h1>Contact</h1>
+            <h1 className="contact-heading">Contact</h1>
             <p>Using this form will send an email directly to my personal address,</p>
             <p>or alternatively, you can contact me at artemis45566@gmail.com</p>
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
+                <br></br>
                 <input type="text" name="user_name"></input>
+                <br></br>
+                <br></br>
                 <label>Email</label>
+                <br></br>
                 <input type="email" name="user_email"></input>
+                <br></br>
+                <br></br>
                 <label>Message</label>
-                <textarea name="message" cols={50}></textarea>
-                <input type="submit" value="Send" className="submit_button"></input>
+                <br></br>
+                <textarea name="message" cols={50} rows={10}></textarea>
+                <br></br>
+                
+                <div className="submit_button" onClick={handleFormSubmit}>
+                    <p>Send</p>
+                </div>
             </form>
         </div>
         

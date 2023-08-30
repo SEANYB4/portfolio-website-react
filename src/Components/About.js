@@ -1,7 +1,7 @@
 import React from "react";
 import '../Styles/about.css';
 import Contact from "./Contact";
-
+import DownloadButton from "./DownloadButton";
 
 const About = () => {
 
@@ -10,7 +10,7 @@ const About = () => {
 
         <div className="about_page_container">
             <div className="about_container">
-            <h1>About</h1>
+            <h1 className="about-heading">About</h1>
             <p>Hello, I'm Sean Bain.</p>
             <p>I am a full stack web developer from Scotland.</p>
             <p>I also enjoy game and audio programming, as well as making music.</p>
@@ -38,9 +38,7 @@ const About = () => {
                 <li>Golang</li>
             </ul>
 
-            <div className="download_button">
-                <p>Download my CV here!</p>
-            </div>
+            <DownloadButton></DownloadButton>
             
             </div>
 
