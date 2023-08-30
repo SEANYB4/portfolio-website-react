@@ -13,7 +13,7 @@ const MatrixBackground = () => {
         const codeSet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789量册髑镍贝睃森枧汐潍';
 
         // number of code elements to generate
-        const numElements = 100;
+        const numElements = 1000;
 
         // generate code elements
         for (let i = 0; i < numElements; i++) {
