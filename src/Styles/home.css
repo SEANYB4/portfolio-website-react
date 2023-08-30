@@ -11,11 +11,21 @@
     position: absolute;
 }
 
+
+
 .image-container h2 {
     right: 20rem;
     top: 18rem;
     position: absolute;
 }
+
+
+.image-container h3 {
+    right: 20rem;
+    top: 20rem;
+    position: absolute;
+}
+
 
 .tree {
     position: absolute;

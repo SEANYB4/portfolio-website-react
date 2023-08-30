@@ -33,6 +33,7 @@ const Home = () => {
             
             <h1>Hey, I'm Sean</h1>
             <h2>Computer Programmer and Musician</h2>
+            <h3>Let's connect and build something</h3>
             
         </div>
     )

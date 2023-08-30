@@ -5,9 +5,9 @@ import WarriorsOfXuImage from '../Images/warriors_of_xu.png';
 import GazetteerImage from '../Images/gazetteer.png';
 import CyberSLavesImage from '../Images/cyber_slaves.png';
 
-const handleClick = () => {
+const handleClick = (link) => {
 
-    console.log('clicked');
+    window.location.href = link;
 }
 
 const Card = ({ title, description, image, link, technologies }) => {
@@ -26,7 +26,7 @@ const Card = ({ title, description, image, link, technologies }) => {
 
         <div className="container">
             <h1>{title}</h1>
-            <img src={imageURL} className="card_image" onClick={handleClick} alt=""></img>
+            <img src={imageURL} className="card_image" onClick={() => handleClick(link)} alt=""></img>
             <p>{description}</p>
             <h6>Technologies Used:</h6>
             <p>{technologies}</p>
