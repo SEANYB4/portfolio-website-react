@@ -149,20 +149,25 @@
 }
 
 
-h1 {
-   
-    /* position: absolute;
-    left: 60rem; */
+#title1 {
+    font-size: 60px;
+    position: absolute;
+    left: 60rem;
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
+    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
-h2 {
-    /* position: absolute;
-    left: 60rem; */
+#title2 {
+    position: absolute;
+    left: 60rem;
+    margin-top: 10rem;
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 

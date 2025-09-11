@@ -4,6 +4,8 @@ import CountdownImage from '../Images/countdown.png';
 import WarriorsOfXuImage from '../Images/warriors_of_xu.png';
 import GazetteerImage from '../Images/gazetteer.png';
 import CyberSLavesImage from '../Images/cyber_slaves.png';
+import MathSorcererImage from '../Images/math_sorcerer.png';
+import AsteroidInvadersImage from '../Images/ateroid_invaders.jpeg';
 
 const handleClick = (link) => {
 
@@ -20,6 +22,10 @@ const Card = ({ title, description, image, link, technologies }) => {
         imageURL = GazetteerImage;
     } else if (image === 'cyber_slaves') {
         imageURL = CyberSLavesImage;
+    } else if (image === 'math_sorcerer') {
+        imageURL = MathSorcererImage;
+    } else if (image === 'asteroid_invaders') {
+        imageURL = AsteroidInvadersImage;
     }
     
     return (

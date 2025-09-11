@@ -1,7 +1,10 @@
 body {
-  background-color: rgb(165, 170, 202);
+  background-color: rgb(38, 248, 73);
   color: rgb(28, 47, 82);
-  font-family: monospace;
+  font-family: "Bungee", sans-serif;
+  font-size: 30px;
+  margin: 20px;
+  
 }
 
 ul {

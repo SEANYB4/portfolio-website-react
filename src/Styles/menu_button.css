@@ -7,6 +7,7 @@
     padding: 0.5rem;
     width: 10rem;
     
+    
 }
 
 .menu_button:hover {
@@ -14,6 +15,12 @@
     /* transform: translateY(-3px); */
     /* border: 1px solid black; */
     border-radius: 5%;
+}
+
+h3 {
+
+    position: absolute;
+    top: 0;
 }
 
 

@@ -20,6 +20,9 @@ ul {
    
 }
 
+.about_page_container h3 {
+    position: relative;
+}
 
 .about_container {
 
@@ -71,6 +74,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+
 .download_button p {
     
     font-size: .75rem;
@@ -80,7 +85,6 @@ ul {
 .download_button:hover {
     background-color: aquamarine;
 }
-
 
 
 .submit_button {

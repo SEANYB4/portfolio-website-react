@@ -11,11 +11,13 @@
     border-radius: 5%;
     padding: 1rem;
     width: 30%;
-    line-height: 0.5rem;
+    line-height: 1rem;
+    background-color: azure;
 }
 
 h1 {
     margin-left: 10px;
+    font-size: 20px;
 }
 
 .container:hover {

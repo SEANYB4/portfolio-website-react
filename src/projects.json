@@ -34,6 +34,20 @@
         "link": "https://seanyb4.github.io/cyber-slaves/",
         "image": "cyber_slaves",
         "technologies": "JavaScript, HTML, CSS"
+    },
+
+    {
+        "title": "Math Sorcerer",
+        "description": "A side scroller game",
+        "link": "https://seanyb4.github.io/math_sorcerer/",
+        "image": "math_sorcerer"
+    },
+
+    {
+        "title": "Asteroid Invaders",
+        "description": "Space shooter game built with ThreeJS",
+        "link": "https://seanyb4.github.io/myThreeJSProject/",
+        "image": "asteroid_invaders"
     }
 
 
