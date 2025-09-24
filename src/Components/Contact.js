@@ -53,6 +53,14 @@ const Contact = () => {
                 <div className="submit_button" onClick={handleFormSubmit}>
                     <p>Send</p>
                 </div>
+
+
+                <div>
+                    <h1>Contact Info</h1>
+                    <p>Email: artemis45566@gmail.com</p>
+                    <p>Github: github.com/SEANYB4</p>
+
+                </div>
             </form>
         </div>
         
