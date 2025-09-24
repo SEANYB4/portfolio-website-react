@@ -1,54 +1,12 @@
 [
 
-     {
-
-        "title": "Countdown",
-        "description": "An online game version of the TV show Countdown",
-        "link": "https://seanyb4.github.io/countdown/",
-        "image": "countdown",
-        "technologies": "Leaflet, JS, PHP, HTML, CSS"
-
-    },
-
-
-     {
-
-        "title": "Warriors of Xu",
-        "description": "A platformer game with a martial arts theme.",
-        "link": "https://seanyb4.github.io/warriors_of_xu/",
-        "image": "warriors_of_xu",
-        "technologies": "JavaScript, HTML, CSS"
-    },
-
-     {
-        "title": "Gazetteer",
-        "description": "A map app that can give you information about different locations in the world",
-        "link": "https://bainsean.infinityfreeapp.com/",
-        "image": "gazetteer",
-        "technologies": "Leaflet, JS, PHP, HTML, CSS"
-    },
-
-    {
-        "title": "Cyber Slaves",
-        "description": "A shooter game with a dystopian sci-fi theme",
-        "link": "https://seanyb4.github.io/cyber-slaves/",
-        "image": "cyber_slaves",
-        "technologies": "JavaScript, HTML, CSS"
-    },
-
-    {
-        "title": "Math Sorcerer",
-        "description": "A side scroller game",
-        "link": "https://seanyb4.github.io/math_sorcerer/",
-        "image": "math_sorcerer"
-    },
-
+    
     {
         "title": "Asteroid Invaders",
         "description": "Space shooter game built with ThreeJS",
         "link": "https://seanyb4.github.io/myThreeJSProject/",
-        "image": "asteroid_invaders"
+        "image": "asteroid_invaders",
+        "technologies": "ThreeJS, JavaScript, Supabase, HTML5, CSS3"
     }
-
 
 ]
