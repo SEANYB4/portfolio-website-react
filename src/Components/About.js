@@ -13,7 +13,7 @@ const About = () => {
             <h1 className="about-heading">About</h1>
             <p>Hello, I'm Sean Bain.</p>
             <p>I am a full stack web developer from Scotland.</p>
-            <p>I also enjoy game and audio programming, as well as making music.</p>
+            <p>I also enjoy game development and studying for cybersecurity certifications, as well as making music.</p>
             <p>I am always eager to take on a challenge,</p>
             <p>so feel free to reach out and let me know about your project.</p>
             <p>Looking forward to working with you...</p>
