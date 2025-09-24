@@ -24,18 +24,17 @@ const About = () => {
                 <li>BA Popular Music - Edinburgh Napier University 2018</li>
             </ul>
 
-            <h3>Addtional Programming Training</h3>
+            <h3>Certifications</h3>
             <ul>
-                <li>Codecademy</li>
-                <li>Boot.dev</li>
-                <li>Leetcode</li>
+                <li>CEH Certified Ethical Hacker v13</li>
+               
             </ul>
 
             <h3>Programming Languages and Frameworks</h3>
             <ul>
                 <li>JavaScript</li>
                 <li>Python</li>
-                <li>Golang</li>
+                <li>C++</li>
             </ul>
 
             <DownloadButton></DownloadButton>
